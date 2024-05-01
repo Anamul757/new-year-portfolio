@@ -1,0 +1,85 @@
+/* common shared style */
+body {
+    .open-sans-uniquifier {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings:
+            "width" 100;
+    }
+}
+
+header {
+
+    background-image: url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: 90%, 100%;
+    background-position: center;
+    width: 1200px;
+    height: 600px;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 20px;
+}
+
+.first-line {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 80px;
+}
+
+.second-line {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.discount-banner {
+    width: 1200px;
+    height: 1000px;
+}
+.discount{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.deals{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.categories{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.discount-img{
+    width: 800px;
+height: 500px;
+margin-left: 250px;
+}
