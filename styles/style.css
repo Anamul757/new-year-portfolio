@@ -96,6 +96,9 @@ header {
     background-size: 100% 80%;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .welcome {
@@ -118,4 +121,39 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+
+.join {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.schedule-section {
+    width: 1320px;
+    height: 482px;
+    background-color: rgba(255, 0, 0, 0.10) ;
+}
+
+.red-color {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.schedule-details{
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
 }
