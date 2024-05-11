@@ -16,7 +16,7 @@ header {
     background-repeat: no-repeat;
     background-size: 90%, 100%;
     background-position: center;
-    width: 1200px;
+    width: 1320px;
     height: 600px;
     color: #FFF;
     text-align: center;
@@ -135,9 +135,12 @@ header {
 }
 
 .schedule-section {
+    /* display: inline;
+    justify-content: center;
+    align-items: center; */
     width: 1320px;
     height: 482px;
-    background-color: rgba(255, 0, 0, 0.10) ;
+    background-color: rgba(255, 0, 0, 0.10);
 }
 
 .red-color {
@@ -148,12 +151,27 @@ header {
     font-weight: 700;
     line-height: normal;
 }
+
 .schedule-details{
-text-align: center;
-font-family: Inter;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px;
-text-transform: capitalize;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding-top: 100px;
+}
+
+.schedule-button {
+    color: #FFF;
+    background-color: red;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 32px;
+    gap: 10px;
+    margin-left: 45%;
 }
