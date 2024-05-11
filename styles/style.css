@@ -152,7 +152,7 @@ header {
     line-height: normal;
 }
 
-.schedule-details{
+.schedule-details {
     text-align: center;
     font-family: Inter;
     font-size: 32px;
@@ -174,4 +174,26 @@ header {
     padding: 16px 32px;
     gap: 10px;
     margin-left: 45%;
+}
+
+#offer {
+    text-align: left;
+}
+
+#Coming {
+    text-align: left;
+}
+
+#coming-des {
+    color: rgba(7, 2, 17, 0.60);
+}
+
+.offer-img {
+    display: flex;
+    justify-content: center;
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 50%;
+    border: 15px solid #F00;
+    padding: 30px;
 }
