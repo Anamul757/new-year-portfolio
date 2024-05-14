@@ -263,39 +263,43 @@ header {
     border-radius: 16px 0px 16px 16px;
     background: #F00;
 }
-.awesome-portfolio{
+
+.awesome-portfolio {
     width: 1600px;
     height: 1335px;
 }
 
-.awesome-heading{
+.awesome-heading {
     color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
-}
-.awesome-text{
-    width: 896px;
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; 
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
 }
 
-.first-line{
+.awesome-text {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.first-line {
     display: flex;
     gap: 15px;
 }
-.second-line{
+
+.second-line {
     display: flex;
     gap: 15px;
     margin-top: 10px;
 }
+
 .rec3 {
     width: 424px;
     height: 450px;
@@ -336,4 +340,53 @@ line-height: 32px;
     height: 450px;
     border-radius: 16px;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.subscribe-section {
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-des {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.input-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-input{
+    width: 438px;
+    height: 66px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+}
+.btn-input{
+width: 210px;
+height: 72px;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+flex-shrink: 0;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
 }
