@@ -27,6 +27,8 @@ header {
 }
 
 .first-line {
+    display: flex;
+    justify-content: center;
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -38,6 +40,8 @@ header {
 }
 
 .second-line {
+    display: flex;
+    justify-content: center;
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -395,7 +399,7 @@ header {
 }
 
 .footer-section {
-    width: 1600px;
+    width: 1400px;
     height: 609px;
     background: #070211;
 }
@@ -432,4 +436,9 @@ line-height: 40px;
     justify-content: center;
     align-items: center;
     margin: 40px;
+}
+.last-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
