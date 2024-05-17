@@ -345,7 +345,9 @@ header {
     border-radius: 16px;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
-
+.rec3:hover, .rec4:hover, .rec5:hover, .rec6:hover, .rec7:hover, .rec8:hover{
+    cursor: pointer;
+}
 .subscribe-section {
     width: 1320px;
     height: 600px;
